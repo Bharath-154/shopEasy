@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView app:cardElevation="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginTop="60dp"
+    android:layout_marginStart="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textColor="@color/colorPrimary" android:textStyle="bold" android:textSize="20dp" android:textAlignment="center" android:text="Product Name" android:id="@+id/product_name"/>
+
+    <ImageView android:layout_marginTop="2dp" android:layout_height="200dp" android:layout_width="match_parent" android:id="@+id/product_image" android:scaleType="centerCrop" android:layout_below="@+id/product_name"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textColor="@color/colorPrimaryDark" android:textSize="18dp" android:textAlignment="center" android:text="Product Price" android:id="@+id/product_price" android:layout_below="@+id/product_image"/>
+
+    <TextView android:layout_marginTop="2dp" android:layout_height="wrap_content" android:layout_width="match_parent" android:textColor="@color/colorPrimaryDark" android:textSize="16dp" android:textAlignment="center" android:text="Product Description" android:id="@+id/product_description" android:layout_below="@+id/product_price"/>
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

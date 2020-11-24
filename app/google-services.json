@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "450699882459",
+    "firebase_url": "https://shopeasy-536ac.firebaseio.com",
+    "project_id": "shopeasy-536ac",
+    "storage_bucket": "shopeasy-536ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450699882459:android:1272e4c6dd9b8fa09501fe",
+        "android_client_info": {
+          "package_name": "com.example.shopeasy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450699882459-bgh0e9ai1jnb7oc22h0hqilt0aoc1v6t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shopeasy",
+            "certificate_hash": "b3c289e79de7fec457f4b6b8c1ff74e81fbb7e9d"
+          }
+        },
+        {
+          "client_id": "450699882459-b4cc6f55m4skeof2f51jsbf3bks2npum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFFFxNsIrCDM07VWOc2Z-lALtqIVjHGn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450699882459-b4cc6f55m4skeof2f51jsbf3bks2npum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

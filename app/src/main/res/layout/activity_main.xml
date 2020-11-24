@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    tools:context=".Buyers.MainActivity"
+    tools:ignore="NamespaceTypo">
+    <ImageView android:layout_height="100dp"
+        android:layout_width="300dp"
+        android:src="@drawable/applogo"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/app_logo"/>
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="248dp"
+        android:layout_marginTop="142dp"
+        android:id="@+id/app_slogan"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:text="Find, Discover, Choose and Buy anything online."
+        android:layout_marginEnd="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"/>
+
+    <Button android:background="@drawable/input_design"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/main_join_now_btn"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:text="Join Now"
+        android:textAllCaps="false"
+        android:padding="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/main_login_btn"/>
+
+    <Button android:background="@drawable/buttons"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/main_login_btn"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:text="Already have an Account? Login"
+        android:textAllCaps="false"
+        android:padding="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@id/seller_begin"
+        />
+
+
+    <TextView
+        android:id="@+id/seller_begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here to become a seller"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"/>
+
+
+</RelativeLayout>
